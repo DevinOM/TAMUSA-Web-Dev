@@ -1,0 +1,30 @@
+body {
+    background-color: gray;
+ }
+
+.btn {
+  width: 100px;
+  height: 100px;
+  font-size: xx-large;
+  color: white;
+  background-color: orange;
+  border-color: black;
+  border-radius: 50px;
+  border-width: 5px;
+}
+
+.btn2wide {
+  width: 200px
+}
+
+.btn2tall {
+  height: 200px
+}
+
+input[type="text"] {
+  width: 400px;
+  height: 100px;
+  font-size: xx-large;
+}
+
+
