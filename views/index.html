@@ -20,72 +20,75 @@
     <!-- Calculator -->
     <table class="text-center d-flex justify-content-center">
         <tr>
-            <td colspan="4">
+            <td colspan="5">
                 <input type="text" id="result">
             </td>
         </tr>
         <tr>
             <td>
-                <button type="button" class="btn btn-primary" onclick="clearResult()">C</button>
+                <button type="button" class="operandbtn btn-primary greybtn" onclick="clearResult()">C</button>
             </td>
             <td>
-                <button type="button" class="btn btn-primary" onclick="plusMinus()">+/-</button>
+                <button type="button" class="operandbtn btn-primary greybtn" onclick="inverseSign()">+/-</button>
             </td>
             <td>
-                <button type="button" class="btn btn-primary" onclick="addOperator('%')">%</button>
+                <button type="button" class="operandbtn btn-primary greybtn" onclick="addOperator()">%</button>
             </td>
             <td>
-                <button type="button" class="btn btn-primary" onclick="addOperator('/')">/</button>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <button type="button" class="btn btn-primary" onclick="buttonNum('7')">7</button>
-            </td>
-            <td>
-                <button type="button" class="btn btn-primary" onclick="buttonNum('8')">8</button>
-            </td>
-            <td>
-                <button type="button" class="btn btn-primary" onclick="buttonNum('9')">9</button>
-            </td>
-            <td>
-                <button type="button" class="btn btn-primary" onclick="addOperator('*')">*</button>
+                <button type="button" class="operandbtn btn-primary" onclick="addOperator('/')">/</button>
             </td>
         </tr>
         <tr>
             <td>
-                <button type="button" class="btn btn-primary" onclick="buttonNum('4')">4</button>
+                <button type="button" class="numberbtn btn-primary" onclick="buttonNum('7')">7</button>
             </td>
             <td>
-                <button type="button" class="btn btn-primary" onclick="buttonNum('5')">5</button>
+                <button type="button" class="numberbtn btn-primary" onclick="buttonNum('8')">8</button>
             </td>
             <td>
-                <button type="button" class="btn btn-primary" onclick="buttonNum('6')">6</button>
+                <button type="button" class="numberbtn btn-primary" onclick="buttonNum('9')">9</button>
             </td>
             <td>
-                <button type="button" class="btn btn-primary" onclick="addOperator('-')">-</button>
+                <button type="button" class="operandbtn btn-primary " onclick="addOperator('*')">x</button>
             </td>
         </tr>
         <tr>
             <td>
-                <button type="button" class="btn btn-primary" onclick="buttonNum('1')">1</button>
+                <button type="button" class="numberbtn btn-primary" onclick="buttonNum('4')">4</button>
             </td>
             <td>
-                <button type="button" class="btn btn-primary" onclick="buttonNum('2')">2</button>
+                <button type="button" class="numberbtn btn-primary" onclick="buttonNum('5')">5</button>
             </td>
             <td>
-                <button type="button" class="btn btn-primary" onclick="buttonNum('3')">3</button>
+                <button type="button" class="numberbtn btn-primary" onclick="buttonNum('6')">6</button>
             </td>
             <td>
-                <button type="button" class="btn btn-primary" onclick="addOperator('+')">+</button>
+                <button type="button" class="operandbtn btn-primary" onclick="addOperator('-')">-</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button type="button" class="numberbtn btn-primary" onclick="buttonNum('1')">1</button>
+            </td>
+            <td>
+                <button type="button" class="numberbtn btn-primary" onclick="buttonNum('2')">2</button>
+            </td>
+            <td>
+                <button type="button" class="numberbtn btn-primary" onclick="buttonNum('3')">3</button>
+            </td>
+            <td>
+                <button type="button" class="operandbtn btn-primary" onclick="addOperator('+')">+</button>
             </td>
         </tr>
         <tr>
             <td colspan="2">
-                <button type="button" class="btn btn-primary btn2wide" onclick="buttonNum('0')">0</button>
+                <button type="button" class="numberbtn btn-primary btn2wide" onclick="buttonNum('0')">0</button>
             </td>
-            <td colspan="2">
-                <button type="button" class="btn btn-primary btn2wide" onclick="calculateResult()">=</button>
+            <td colspan="1">
+                <button type="button" class="numberbtn btn-primary" onclick="buttonNum('.')">.</button>
+            </td>
+            <td colspan="1">
+                <button type="button" class="operandbtn btn-primary" onclick="calculateResult()">=</button>
             </td>
         </tr>
     </table>

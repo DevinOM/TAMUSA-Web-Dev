@@ -13,7 +13,7 @@ function calculateResult() {
     document.getElementById("result").value = result
 }
 
-function plusMinus() {
+function inverseSign() {
     let num = document.getElementById("result").value
     let result = eval(num * -1)
 
