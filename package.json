@@ -1,0 +1,26 @@
+{
+  "name": "tamusa-web-dev",
+  "version": "1.0.0",
+  "description": "Develop your own portfolio website using HTML, CSS, and Bootstrap",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevinOM/TAMUSA-Web-Dev.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevinOM/TAMUSA-Web-Dev/issues"
+  },
+  "homepage": "https://github.com/DevinOM/TAMUSA-Web-Dev#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.0"
+  }
+}
